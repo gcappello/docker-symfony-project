@@ -19,6 +19,6 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 WORKDIR /usr/src/app
 
-COPY src/my-symfony-app /usr/src/app
+#COPY src/ /usr/src/app
 
 RUN PATH=$PATH:/usr/src/apps/vendor/bin:bin
